@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/*cambio responsivo de el navbar*/
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*custom navbar*/
+
+.custom-bg-navbar {
+    background-color: #b1b1b1;
+}
+
+/*colores personalizado para contactanos*/
+
+.custom-bg {
+    background-color: #1332a4;
+}
+
+.custom-text {
+    color: #eae50b; /* color personalizado para el enlace */
+    text-decoration: none; /* quitar el subrayado */
+    transition: color 0.2s ease; /* fade */
+    font-weight: bold;
+}
+
+.custom-text:hover {
+    color: #ffff35;
+    text-decoration: none;
+}
