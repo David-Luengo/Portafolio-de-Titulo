@@ -1,8 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-nav {
-    background-color: #000000;
-  }
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
 
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.carousel-inner {
+    max-height: 25rem;
+}
+
+.carousel-item {
+    text-align: center;
+    height: 25rem; /* Mantén la altura fija según la altura máxima */
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: auto; /* Ajusta la anchura para mantener la proporción de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+@media (max-width:768px){
+    #intro {
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media(max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
 
 .login-style {
     max-width: 800px;
@@ -19,7 +66,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-
+    
 input[type="text"],
 input[type="password"] {
     width: 100%;
@@ -80,3 +127,6 @@ a:hover {
 }
 
     
+
+
+
